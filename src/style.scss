@@ -1,0 +1,137 @@
+$text-grey: #00000090;
+$border-grey: #00000045;
+
+*,
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 10mm;
+  width: 210mm;
+  min-height: 297mm;
+}
+
+a {
+  color: blue;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-weight: 800;
+  color: black;
+  font-size: 2em;
+}
+
+h2 {
+  display: inline-block;
+  font-weight: 600;
+  color: black;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-style: italic;
+  font-stretch: expanded;
+  border-bottom: 1px solid $border-grey;
+}
+
+h3 {
+  font-weight: 300;
+  color: $text-grey;
+  font-size: 1.2em;
+}
+
+header {
+  .contact {
+    margin: 12px 0;
+    span:not(:last-child)::after {
+      content: "/";
+      color: $text-grey;
+      margin: 0 10px;
+      text-transform: capitalize;
+    }
+  }
+  a {
+    text-transform: lowercase;
+  }
+}
+
+#skills,
+#workExperience,
+#education {
+  margin: 36px 0;
+}
+
+#skills {
+  .bullets {
+    margin-top: 12px;
+    .bullet {
+      display: inline-flex;
+      border: 1px solid $border-grey;
+      padding: 6px;
+      border-radius: 10px;
+      margin: 6px;
+      text-transform: capitalize;
+    }
+  }
+}
+
+#workExperience {
+  .experience {
+    margin: 18px 0;
+    display: flex;
+    flex-direction: column;
+
+    a {
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 1.1em;
+    }
+    span.where {
+      margin-bottom: 6px;
+      span.duration {
+        color: $text-grey;
+      }
+      span.duration::before {
+        content: "/";
+        margin: 0 6px;
+        font-weight: bold;
+      }
+    }
+    span.description {
+      margin: 3px 0;
+      text-align: justify;
+    }
+    span.description::before {
+      content: "-";
+      margin-right: 6px;
+      color: $border-grey;
+    }
+  }
+}
+
+#education {
+  .education {
+    margin: 18px 0;
+
+    span.title {
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 1.1em;
+    }
+    span.duration::before {
+      content: "/";
+      margin: 0 6px;
+      font-weight: bold;
+    }
+    span.duration {
+      color: $text-grey;
+    }
+  }
+}

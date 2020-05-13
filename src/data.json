@@ -1,0 +1,71 @@
+{
+  "personalInfo": {
+    "name": "Samuel Aguiar",
+    "role": "Front End Developer",
+    "contact": {
+      "email": "samuelaguiarp@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/samuelaguiar/",
+      "github": "https://github.com/samuelaguiar"
+    }
+  },
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "Responsive Design",
+    "Organization",
+    "Self learner"
+  ],
+  "experience": [
+    {
+      "role": "Front End Developer",
+      "where": "Printástico",
+      "link": "https://www.printastico.com.br/",
+      "start": "03/2019",
+      "end": "",
+      "current": true,
+      "description": [
+        "Led the implementation of company's core application to customize image/text-based products (such as PhotoBooks) using HTML, CSS, Javascript and React. The software, which was previously developed with flash, was rewritten from scratch a better and fluid user experience and requiring less effort at the client-side to process data.",
+        "Built a cross-saving algorithm integrating IndexedDB and the API provided, to grant better user experience, especially because of the large size and amount of image files. Also, it facilitated the future implementation of a progressive web application.",
+        "Wrote a script to automate the PDF files generation using puppeteer and CSS Media Queries to modify the appearance of the application in print mode",
+        "Maintenance, through the SCRUM agile methodology and continuous integration."
+      ]
+    },
+    {
+      "role": "Front End Developer (internship)",
+      "where": "Federal University of Piauí",
+      "link": "http://www.ufpi.br/",
+      "start": "08/2018",
+      "end": "08/2019",
+      "current": false,
+      "description": [
+        "Executed the prototyping and development of TV STI application with Adobe XD, Photoshop, HTML, CSS, Javascript and React. This helped the STI department to reduce the big flow of phone calls and emails requiring the status of previous requests, improving the STI's administration team productivity. Also, shows the STI's services catalogue, calendar and birthdays/vacation status of employees in a beautiful interface within dark/light mode. All data is fetched from a REST API and the application supports future integration in each department of the institution.",
+        "Design and built the front-end of UFPI Mobile aplication with React Native",
+        "Developed a redesign suggestion to the Grupo Coimbra website, to a more modern and fast version using Photoshop, HTML, CSS, Javascript, React, Gatsby and Wordpress Rest API."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "BS in Computer Science",
+      "by": "Federal University of Piauí",
+      "duration": "08/2014 - 12/2019"
+    },
+    {
+      "title": "Fullstack Advanced React and GraphQL",
+      "by": "WesBos",
+      "duration": "05/2020"
+    },
+    {
+      "title": "React Front to Back",
+      "by": "Udemy",
+      "duration": "10/2018"
+    },
+    {
+      "title": "Modern JavaScript From The Beginning",
+      "by": "Udemy",
+      "duration": "03/2018 - 04/2018"
+    }
+  ]
+}
